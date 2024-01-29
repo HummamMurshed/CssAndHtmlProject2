@@ -1042,6 +1042,12 @@ header nav ul li a:hover {
 .footer img {
   margin: 0 0 20px 0;
 }
+@media (max-width: 766px) {
+  .footer img {
+    margin: 0 0 20px 0;
+    max-width: 200px;
+  }
+}
 .footer .container {
   position: relative;
 }
